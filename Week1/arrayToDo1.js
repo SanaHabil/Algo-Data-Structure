@@ -38,16 +38,31 @@
 
 //Insert At
 
-function insertAt(arr,idx,value){
-    var newArr = []
-    for(i=0; i<idx ; i++){
-        newArr[i]=arr[i]
-    }
-    newArr.push(value)
-    for(i=idx; i<arr.length ; i++){
-        newArr.push(arr[i])
-    }
-    console.log(newArr)
-}
+// function insertAt(arr,idx,value){
+//     var newArr = []
+//     for(i=0; i<idx ; i++){
+//         newArr[i]=arr[i]
+//     }
+//     newArr.push(value)
+//     for(i=idx; i<arr.length ; i++){
+//         newArr.push(arr[i])
+//     }
+//     console.log(newArr)
+// }
 
-insertAt([100,200,5,8,4], 3, 311)
+// insertAt([100,200,5,8,4], 3, 311)
+
+//BONUS: Remove At
+// function removeAt(arr,idx){
+//     var newArr = []
+//     for(i=0; i<idx ; i++){
+//         newArr[i]=arr[i]
+//     }
+//     for(i=idx+1; i<arr.length ; i++){
+//         newArr.push(arr[i])
+//     }
+//     console.log("removed Value is:",arr[idx],"Returned Array is:",newArr)
+// }
+// removeAt([1000,3,204,77], 1)
+
+//BONUS: Swap Pairs
